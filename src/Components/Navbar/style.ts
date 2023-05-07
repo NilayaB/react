@@ -5,6 +5,7 @@ export const HeaderStyled = styled.div`
     top:0;
     left:0;
     width:100%;
+    z-index: 1111;
     header {
         background: transparent;
         box-shadow: none;
