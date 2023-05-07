@@ -1,5 +1,5 @@
 import React from "react";
-import { AppBar, Container, Toolbar, Typography, Box, IconButton, Menu, MenuItem, Button, Link } from "@mui/material";
+import { AppBar, Container, Toolbar, Box, IconButton, Menu, MenuItem, Button, Link } from "@mui/material";
 import { FaBars } from 'react-icons/fa';
 import {HeaderStyled, LogoStyled, DestopMenuStyled, DesktopButtonStyled } from './style';
 const pages = ['Home', 'What is GPT?', 'Open AI', 'Case Studies', 'Library'];
@@ -20,7 +20,7 @@ const Navbar = () => {
     return (
         <HeaderStyled>
             <AppBar>
-            <Container maxWidth="xl">
+            <Container>
                 <Toolbar disableGutters>
                     {/* logo */}
                     <Box sx={{ display: { xs: 'none', md: 'flex' }}}>

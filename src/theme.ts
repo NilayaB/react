@@ -53,12 +53,14 @@ const theme = createTheme({
       font16: '16px',
       font18: '18px',
       font20: '20px',
+      font24: '24px',
     },
     fontWeight: {
       rg: 400,
       md: 500,
       sm: 600,
       bd: 700,
+      bl: 800,
     },
     heading: {
       h1: '32px',
