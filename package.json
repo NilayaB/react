@@ -25,8 +25,6 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "predeploy":"npm run build",
-    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
     "magic": "webpack"
   },
@@ -36,7 +34,6 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://nilayab.github.io/react",
   "browserslist": {
     "production": [
       ">0.2%",
