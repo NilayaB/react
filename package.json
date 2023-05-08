@@ -28,6 +28,7 @@
     "eject": "react-scripts eject",
     "magic": "webpack"
   },
+  "homepage": "https://nilayab.github.io/react",
   "eslintConfig": {
     "extends": [
       "react-app",
