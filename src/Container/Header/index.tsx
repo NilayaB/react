@@ -1,23 +1,48 @@
 import React from "react";
-import { BannerStyle, BannerContentStyle, BannerImageStyle } from './style';
-import { Container, Grid } from "@mui/material";
+import { BannerStyle, BannerLeftStyle, BannerRightStyle } from './style';
+import { Button, Container, FormGroup, Grid, TextField } from "@mui/material";
 const Header = () => {
     return (
         <BannerStyle>
             <Container>
-            <Grid container spacing={2}>
-                <Grid item xs={6}>
-                    <BannerContentStyle>
+            <Grid container spacing={2} alignItems='center'>
+                <Grid item md={6}>
+                    <BannerLeftStyle>
                         <h1>Let’s Build Something amazing with GPT-3 OpenAI</h1>
                         <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
-                        
-                    </BannerContentStyle>
+                        <div className="banner-form">
+                            <FormGroup>
+                                <TextField  label="email" id="email" />
+                                <Button>Get Started</Button>
+                            </FormGroup>
+                        </div>
+                        <div className="visit">
+                            <ul>
+                                <li>
+                                    <img src="images/visit-1.png" alt="visit-img" />
+                                </li>
+                                <li>
+                                    <img src="images/visit-1.png" alt="visit-img" />
+                                </li>
+                                <li>
+                                    <img src="images/visit-1.png" alt="visit-img" />
+                                </li>
+                                <li>
+                                    <img src="images/visit-1.png" alt="visit-img" />
+                                </li>
+                                <li>
+                                    <div className="visit-num"><p>1.6k+</p></div>
+                                </li>
+                            </ul>
+                            <p>1,600 people requested access a visit in last 24 hours</p>
+                        </div>
+                    </BannerLeftStyle>
                 </Grid> 
 
-                <Grid item xs={6}>
-                    <BannerImageStyle>
-
-                    </BannerImageStyle>
+                <Grid item md={6}>
+                    <BannerRightStyle>
+                        <img src="images/header_image.png" alt="banner_img" />
+                    </BannerRightStyle>
                 </Grid>                
             </Grid>
             </Container>
