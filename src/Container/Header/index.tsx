@@ -19,16 +19,16 @@ const Header = () => {
                         <div className="visit">
                             <ul>
                                 <li>
-                                    <img src="images/visit-1.png" alt="visit-img" />
+                                    <img src="../react/images/visit-1.png" alt="visit-img" />
                                 </li>
                                 <li>
-                                    <img src="images/visit-1.png" alt="visit-img" />
+                                    <img src="../react/images/visit-1.png" alt="visit-img" />
                                 </li>
                                 <li>
-                                    <img src="images/visit-1.png" alt="visit-img" />
+                                    <img src="../react/images/visit-1.png" alt="visit-img" />
                                 </li>
                                 <li>
-                                    <img src="images/visit-1.png" alt="visit-img" />
+                                    <img src="../react/images/visit-1.png" alt="visit-img" />
                                 </li>
                                 <li>
                                     <div className="visit-num"><p>1.6k+</p></div>
@@ -41,7 +41,7 @@ const Header = () => {
 
                 <Grid item md={6}>
                     <BannerRightStyle>
-                        <img src="images/header_image.png" alt="banner_img" />
+                        <img src="../react/images/header_image.png" alt="banner_img" />
                     </BannerRightStyle>
                 </Grid>                
             </Grid>

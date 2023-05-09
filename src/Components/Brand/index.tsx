@@ -7,10 +7,10 @@ const Brand = () => {
         <BrandMainStyled>
             <Container>
                 <div className="BrandInner">
-                    <img src="images/brand-1.png" alt="brand-1" />
-                    <img src="images/brand-2.png" alt="brand-1" />
-                    <img src="images/brand-3.png" alt="brand-1" />
-                    <img src="images/brand-4.png" alt="brand-1" />
+                    <img src="../react/images/brand-1.png" alt="brand-1" />
+                    <img src="../react/images/brand-2.png" alt="brand-1" />
+                    <img src="../react/images/brand-3.png" alt="brand-1" />
+                    <img src="../react/images/brand-4.png" alt="brand-1" />
                 </div>
             </Container>
         </BrandMainStyled>
