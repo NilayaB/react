@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const FeatureMailStyled = styled.section`
     position:relative;
-    padding:200px 0;
+    padding:200px 0 0 0;
     &:after {
         position:absolute;
         content:'';
@@ -27,11 +27,12 @@ export const FeatureMailStyled = styled.section`
             text-fill-color: transparent;
             margin-bottom:34px;
         }
-        p {
+        a {
             font-weight:${props => props.theme.custom.fontWeight.md};
             font-size: ${props => props.theme.custom.fontSize.font16};
             line-height: 30px;
             color: #FF8A71;
+            text-decoration:none;
         }
     }
 

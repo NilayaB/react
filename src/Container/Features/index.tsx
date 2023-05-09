@@ -1,4 +1,4 @@
-import { Grid } from "@mui/material";
+import { Grid, Link } from "@mui/material";
 import { Container } from "@mui/system";
 import React from "react";
 import {FeatureMailStyled} from "./style";
@@ -11,7 +11,7 @@ const Features = () => {
                     <Grid item md={4}>
                         <div className="feature-left">
                             <h2>The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.</h2>
-                            <p>Request Early Access to Get Started</p>
+                            <Link href="#">Request Early Access to Get Started</Link>
                         </div>
                     </Grid>
                     <Grid item md={1}></Grid>

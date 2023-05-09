@@ -1,6 +1,7 @@
 import React from "react";
 import Brand from "../Components/Brand";
 import CTA from "../Components/CTA";
+import Feature from "../Components/Feature";
 import Navbar from "../Components/Navbar";
 import Blog from "../Container/Blog";
 import Features from "../Container/Features";
@@ -19,6 +20,7 @@ const Home = () => {
             <Brand />
             <WhatGPT3 />
             <Features />
+            <Feature />
             <Possiblity />
             <CTA />
             <Blog />
