@@ -4,7 +4,6 @@ import { FaBars } from 'react-icons/fa';
 import {HeaderStyled, LogoStyled, DestopMenuStyled, DesktopButtonStyled } from './style';
 const pages = ['Home', 'What is GPT?', 'Open AI', 'Case Studies', 'Library'];
 const buttons = ['Sign in', 'Sign up'];
-
 const Navbar = () => {
     const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
   
@@ -25,7 +24,7 @@ const Navbar = () => {
                     {/* logo */}
                     <Box sx={{ display: { xs: 'none', md: 'flex' }}}>
                         <LogoStyled>
-                            <img src="images/logo.png" alt="logo" />
+                            <img src="./react/images/logo.png" alt="logo" />
                         </LogoStyled>
                     </Box>
 

@@ -5,6 +5,7 @@ import { GlobalStyle } from "./GlobalStyle";
 import Home from "./Pages/Home";
 const App = () => {
     return (
+        
         <ThemeProvider theme={theme}>
             <GlobalStyle />
             <div className="app">
