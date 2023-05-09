@@ -2,7 +2,7 @@ import React from "react";
 import { AppBar, Container, Toolbar, Box, IconButton, Menu, MenuItem, Button, Link } from "@mui/material";
 import { FaBars } from 'react-icons/fa';
 import {HeaderStyled, LogoStyled, DestopMenuStyled, DesktopButtonStyled } from './style';
-const pages = ['Home', 'What is GPT?', 'Open AI', 'Case Studies', 'Library'];
+const pages = ['Home', 'What is ?', 'Open AI', 'Case Studies', 'Library'];
 const buttons = ['Sign in', 'Sign up'];
 const Navbar = () => {
     const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
