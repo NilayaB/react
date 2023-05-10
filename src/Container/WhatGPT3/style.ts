@@ -73,6 +73,7 @@ export const WhatMainStyled = styled.section`
             }
             a {
                 text-decoration:none;
+                float:right;
                 P {
                     font-weight:${props => props.theme.custom.fontWeight.md};
                     font-size: ${props => props.theme.custom.fontSize.font16};

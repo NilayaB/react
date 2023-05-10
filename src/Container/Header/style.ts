@@ -101,6 +101,7 @@ export const BannerLeftStyle = styled.div`
             line-height: 38px;
             color:#fff;
             margin-left:13px;
+            margin-bottom:0;
         }
     }
 `
