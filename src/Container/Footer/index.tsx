@@ -17,7 +17,7 @@ const Footer = () => {
                 <Grid container spacing={2}>
                     <Grid item md={3}>
                         <div className="footerlogo">
-                            <img src="./react/images/logo.png" alt="logo_foot" />
+                            <img src="../react/images/logo.png" alt="logo_foot" />
                             <p>Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</p>
                         </div>
                     </Grid>

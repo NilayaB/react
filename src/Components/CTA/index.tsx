@@ -19,7 +19,7 @@ const CTA = () => {
                             <Grid item md={4}>
                                 <div className="ctainner">
                                     <div className="ctainnerimage">
-                                        <img src="./react/images/cta1.png" alt="cta" />
+                                        <img src="../react/images/cta1.png" alt="cta" />
                                     </div>
                                     <div className="ctainnercontent">
                                         <p>Sep 26, 2021</p>
@@ -33,7 +33,7 @@ const CTA = () => {
                                     <Grid item md={6}>
                                         <div className="ctainner ctainner1">
                                             <div className="ctainnerimage">
-                                                <img src="./react/images/cta2.png" alt="cta" />
+                                                <img src="../react/images/cta2.png" alt="cta" />
                                             </div>
                                             <div className="ctainnercontent">
                                                 <p>Sep 26, 2021</p>
@@ -45,7 +45,7 @@ const CTA = () => {
                                     <Grid item md={6}>
                                         <div className="ctainner ctainner1">
                                             <div className="ctainnerimage">
-                                                <img src="./react/images/cta3.png" alt="cta" />
+                                                <img src="../react/images/cta3.png" alt="cta" />
                                             </div>
                                             <div className="ctainnercontent">
                                                 <p>Sep 26, 2021</p>
@@ -57,7 +57,7 @@ const CTA = () => {
                                     <Grid item md={6}>
                                         <div className="ctainner ctainner1">
                                             <div className="ctainnerimage">
-                                                <img src="./react/images/cta4.png" alt="cta" />
+                                                <img src="../react/images/cta4.png" alt="cta" />
                                             </div>
                                             <div className="ctainnercontent">
                                                 <p>Sep 26, 2021</p>
@@ -69,7 +69,7 @@ const CTA = () => {
                                     <Grid item md={6}>
                                         <div className="ctainner ctainner1">
                                             <div className="ctainnerimage">
-                                                <img src="./react/images/cta5.png" alt="cta" />
+                                                <img src="../react/images/cta5.png" alt="cta" />
                                             </div>
                                             <div className="ctainnercontent">
                                                 <p>Sep 26, 2021</p>
