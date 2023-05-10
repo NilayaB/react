@@ -23,7 +23,6 @@ const Home = () => {
             <Feature />
             <Possiblity />
             <CTA />
-            <Blog />
             <Footer />
         </>
     )

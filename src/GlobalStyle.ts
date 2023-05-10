@@ -30,7 +30,7 @@ export const GlobalStyle = createGlobalStyle<{ theme: any }>`
             z-index: -1;
             width: 701px;
             height: 496px;
-            right: -235px;
+            right: 0;
             top: 400px;
             background: #072D56;
         }
@@ -46,5 +46,8 @@ export const GlobalStyle = createGlobalStyle<{ theme: any }>`
     h1,h2,h3,h4,h5,h6,p {
         margin:0;
         padding:0;
+    }
+    a {
+        display:inline-block;
     }
 `
