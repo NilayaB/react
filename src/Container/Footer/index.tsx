@@ -15,17 +15,17 @@ const Footer = () => {
                     </Grid>
                 </Grid>
                 <Grid container spacing={2}>
-                    <Grid item md={3}>
+                    <Grid item xs={12} md={3}>
                         <div className="footerlogo">
                             <img src="../react/images/logo.png" alt="logo_foot" />
                             <p>Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</p>
                         </div>
                     </Grid>
-                    <Grid item md={2}>
+                    <Grid item xs={12} md={2}>
                     </Grid>
-                    <Grid item md={7}>
+                    <Grid item xs={12} md={7}>
                         <Grid container spacing={2}>
-                            <Grid item md={4}>
+                            <Grid item xs={12} sm={4} md={4} lg={4}>
                                 <div className="footerlist">
                                     <h6>Links</h6>
                                     <ul>
@@ -36,7 +36,7 @@ const Footer = () => {
                                     </ul>
                                 </div>
                             </Grid>
-                            <Grid item md={4}>
+                            <Grid item xs={12} sm={4} md={4} lg={4}>
                                 <div className="footerlist">
                                     <h6>Company</h6>
                                     <ul>
@@ -46,7 +46,7 @@ const Footer = () => {
                                     </ul>
                                 </div>
                             </Grid>
-                            <Grid item md={4}>
+                            <Grid item xs={12} sm={4} md={4} lg={4}>
                                 <div className="footerlist">
                                     <h6>Get in touch</h6>
                                     <ul>
@@ -58,7 +58,7 @@ const Footer = () => {
                             </Grid>
                         </Grid>
                     </Grid>
-                    <Grid item md={12}>
+                    <Grid item xs={12} md={12}>
                         <div className="footercopyright">
                             <p>© 2021 GPT-3. All rights reserved.</p>
                         </div>

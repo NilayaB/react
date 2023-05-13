@@ -8,12 +8,12 @@ const Feature = () => {
         <FeatureStyled>
             <Container>
                 <Grid container spacing={2} alignItems='center'>
-                    <Grid item md={6}>
+                    <Grid item xs={12} md={6}>
                         <div className="featureImage">
                             <img src="../react/images/possiblity_img.png" alt="possiblity_img" />
                         </div>
                     </Grid>
-                    <Grid item md={6}>
+                    <Grid item xs={12} md={6}>
                         <div className="featureContent">
                             <h6>Request Early Access to Get Started</h6>
                             <h2>The possibilities are beyond your imagination</h2>

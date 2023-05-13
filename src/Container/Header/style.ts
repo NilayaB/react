@@ -17,6 +17,10 @@ export const BannerLeftStyle = styled.div`
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         margin-bottom:33px;
+        ${props => props.theme.breakpoints.down("lg")} {
+            font-size: 42px;
+            line-height: 55px;
+        },
     }
     p {
         font-size:${props => props.theme.custom.fontSize.font20};
@@ -31,6 +35,9 @@ export const BannerLeftStyle = styled.div`
             .MuiTextField-root {
                 background: #052D56;
                 border-radius: 5px 0px 0px 5px;
+                @media (max-width:994px) {
+                    width:100%;
+                }
                 input {
                     font-size:${props => props.theme.custom.fontSize.font20};
                     font-weight:${props => props.theme.custom.fontWeight.rg};
@@ -55,6 +62,11 @@ export const BannerLeftStyle = styled.div`
                 color:#fff!important;
                 padding:0 20px;
                 border-radius: 0 5px 5px 0;
+                @media (max-width:994px) {
+                    padding: 12px 0;
+                    width: 100%;
+                    margin-top: 15px;
+                }
             }
         }
     }

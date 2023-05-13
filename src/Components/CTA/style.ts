@@ -13,6 +13,10 @@ export const Wrapcta = styled.section`
             -webkit-text-fill-color: transparent;
             background-clip: text;
             text-fill-color: transparent;
+            ${props => props.theme.breakpoints.down("lg")} {
+                font-size: 42px;
+                line-height: 55px;
+            }
         }
     }
 
@@ -71,6 +75,11 @@ export const Wrapcta = styled.section`
                     color: #FFFFFF;
                     &:hover {
                         text-decoration:none;
+                    }
+                    ${props => props.theme.breakpoints.down("lg")} {
+                        position: static;
+                        margin-top: 10px;
+                        display: block;
                     }
                 }
             }

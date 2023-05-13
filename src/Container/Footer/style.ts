@@ -20,7 +20,11 @@ export const Wrapfooter = styled.section`
             -webkit-text-fill-color: transparent;
             background-clip: text;
             text-fill-color: transparent;
-            margin-bottom:64px
+            margin-bottom:64px;
+            ${props => props.theme.breakpoints.down("lg")} {
+                font-size: 42px;
+                line-height: 55px;
+            },
         }
         a {
             border: 1px solid #FFFFFF;
@@ -32,6 +36,9 @@ export const Wrapfooter = styled.section`
         }
     }
     .footerlogo {
+        ${props => props.theme.breakpoints.down("md")} {
+            text-align:center;
+        }
         p {
             font-size: ${props => props.theme.custom.font12};
             line-height: 20px;
@@ -45,6 +52,9 @@ export const Wrapfooter = styled.section`
             line-height: 16px;
             margin-bottom:36px;
             color: #FFFFFF;
+            ${props => props.theme.breakpoints.down("md")} {
+                text-align:center;
+            }
         }
 
         ul {
@@ -56,6 +66,10 @@ export const Wrapfooter = styled.section`
                     line-height: 14px;
                     color: #FFFFFF;
                     margin-bottom:26px;
+                    text-decoration:none;
+                }
+                ${props => props.theme.breakpoints.down("md")} {
+                    text-align:center;
                 }
             }
         }

@@ -10,6 +10,11 @@ export const HeaderStyled = styled.div`
         background: transparent;
         box-shadow: none;
         margin: 40px 0 0 0;
+        .toggle_btn {
+            svg {
+                fill:#fff;
+            }
+        }
     }
 `
 

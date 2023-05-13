@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, {Keyframes} from "styled-components";
 
 
 export const WhatMainStyled = styled.section`
@@ -49,6 +49,15 @@ export const WhatMainStyled = styled.section`
                     left:0;
                     background: ${props => props.theme.custom.gradient.textgradient};
                 }
+                &:hover:after {
+                    animation-name: after-animation;
+                    animation-duration: 2s;
+                }
+               
+               @keyframes after-animation {
+                0% { width:0; transition:1s; }
+                100% { width:50px; transition:1s; }
+               }
             }
             p {
                 font-size:${props => props.theme.custom.fontSize.font16};
@@ -74,6 +83,9 @@ export const WhatMainStyled = styled.section`
             a {
                 text-decoration:none;
                 float:right;
+                ${props => props.theme.breakpoints.down("md")} {
+                    float:left;
+                }
                 P {
                     font-weight:${props => props.theme.custom.fontWeight.md};
                     font-size: ${props => props.theme.custom.fontSize.font16};
@@ -103,6 +115,15 @@ export const WhatMainStyled = styled.section`
                     left:0;
                     background: ${props => props.theme.custom.gradient.textgradient};
                 }
+                &:hover:after {
+                    animation-name: after-animation;
+                    animation-duration: 2s;
+                }
+               
+               @keyframes after-animation {
+                0% { width:0; transition:1s; }
+                100% { width:50px; transition:1s; }
+               }
             }
             p {
                 font-size:${props => props.theme.custom.fontSize.font16};

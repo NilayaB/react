@@ -14,6 +14,9 @@ export const FeatureMailStyled = styled.section`
         z-index:-1;
         background: #07325F;
         filter: blur(282px);
+        ${props => props.theme.breakpoints.down("md")} {
+            width:100%;
+        }
     }
     .feature-left {
         h2 {
@@ -26,6 +29,10 @@ export const FeatureMailStyled = styled.section`
             background-clip: text;
             text-fill-color: transparent;
             margin-bottom:34px;
+            ${props => props.theme.breakpoints.down("lg")} {
+                font-size: 24px;
+                line-height: 34px;
+            }
         }
         a {
             font-weight:${props => props.theme.custom.fontWeight.md};
@@ -54,6 +61,15 @@ export const FeatureMailStyled = styled.section`
                 left:0;
                 margin-bottom:10px;
                 background: ${props => props.theme.custom.gradient.textgradient};
+            }
+            &:hover:after {
+                animation-name: after-animation;
+                animation-duration: 2s;
+            }
+            
+            @keyframes after-animation {
+            0% { width:0; transition:1s; }
+            100% { width:50px; transition:1s; }
             }
         }
 

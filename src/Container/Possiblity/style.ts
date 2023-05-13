@@ -22,6 +22,9 @@ export const PossiblityStyle = styled.section`
                 line-height: 45px;
                 color: #000000;
             }
+            ${props => props.theme.breakpoints.down("md")} {
+                text-align:center;
+            }
         }
         .posiblityRight {
             text-align:right;
@@ -37,6 +40,9 @@ export const PossiblityStyle = styled.section`
                 line-height: 30px;
                 color: #FFFFFF;
                 text-decoration:none;
+            }
+            ${props => props.theme.breakpoints.down("md")} {
+                text-align:center;
             }
         }
     }

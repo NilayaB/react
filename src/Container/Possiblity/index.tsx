@@ -8,13 +8,13 @@ const Possiblity = () => {
             <Container>
                 <div className="posiblity">
                     <Grid container spacing={2} alignItems='center'>
-                        <Grid item md={8}>
+                        <Grid item xs={12} md={8}>
                             <div className="posiblityLeft">
                                 <p>Request Early Access to Get Started</p>
                                 <h5>Register today & start exploring the endless possiblities.</h5>
                             </div>
                         </Grid>
-                        <Grid item md={4}>
+                        <Grid item xs={12} md={4}>
                             <div className="posiblityRight">
                                 <Link href="#">Get Started</Link>
                             </div>

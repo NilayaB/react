@@ -20,6 +20,9 @@ export const GlobalStyle = createGlobalStyle<{ theme: any }>`
             top: -305px;
             border-radius: 100%;
             z-index: -1;
+            ${props => props.theme.breakpoints.down("sm")} {
+                width:100%;
+            }
         }
     
         &:before {
@@ -33,6 +36,9 @@ export const GlobalStyle = createGlobalStyle<{ theme: any }>`
             right: 0;
             top: 400px;
             background: #072D56;
+            ${props => props.theme.breakpoints.down("sm")} {
+                width:100%;
+            }
         }
     }
     
@@ -50,4 +56,6 @@ export const GlobalStyle = createGlobalStyle<{ theme: any }>`
     a {
         display:inline-block;
     }
+
+    
 `

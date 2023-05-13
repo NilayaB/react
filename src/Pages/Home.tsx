@@ -14,7 +14,7 @@ const Home = () => {
     return (
         <>
             <div className="gradient__bg">
-                <Navbar />
+                <Navbar children={<div></div>} />
                 <Header />
             </div>
             <Brand />
