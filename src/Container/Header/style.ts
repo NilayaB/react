@@ -99,10 +99,11 @@ export const BannerLeftStyle = styled.div`
                     p {
                         font-size:${props => props.theme.custom.fontSize.font8}!important;
                         font-weight:${props => props.theme.custom.fontWeight.bl}!important;
-                        line-height: 38px;
+                        line-height: 36px;
                         color:#000;
                         margin: 0;
                         text-align: center;
+                        
                     }
                 }
             }
@@ -114,6 +115,9 @@ export const BannerLeftStyle = styled.div`
             color:#fff;
             margin-left:13px;
             margin-bottom:0;
+            ${props =>  props.theme.breakpoints.down("md")} {
+                line-height:16px;
+            }
         }
     }
 `
